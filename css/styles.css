@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster%7CPlayfair+Display%7CRaleway&display=swap');
+#our_story  .row{
+    margin-right: 30px;
+}
+#our_story h1 {
+    color: crimson;
+    font-size: 6em;
+/* ADD Class text-shadow IN THE H1 OF OUR_STORY SECTION */
+}
+
+#our_story h1,
+#review h1{
+    font-family: 'Lobster', cursive;
+}
+
+#our_story h3,
+#our_story p,
+#review p{
+    font-family: 'Raleway',sans-serif;
+}
+#our_story h3{
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0;
+}
+#our_story p{
+    font-weight: 300;
+}
+#story-year{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 200px;
+    z-index: -1;
+    position: absolute;
+    color: darkgoldenrod;
+}
+/* Review Section */
+#review{
+    background-image: url('../img/food_review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#review .center{
+    margin: 0 auto;
+    float:none;
+    background-color:  rgba(0, 0, 0, .5);
+    padding: 10px;
+    margin-top: 145px;
+    border-radius: 5px;
+
+}
+#review h1 {
+    font-size: 5em;
+    columns: #f8512f; 
+}
+#review p{
+    color:#fff;
+    font-weight: 300;
+    font-size:2em;
+}
+
+
+/* Review Section */
